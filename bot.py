@@ -1,9 +1,10 @@
 import discord
 from discord.ext import commands
 
-TOKEN = 'NTE5NjUzMjA5NDIyMjk5MTg3.DuicqQ.DEKtvmxLx4UqDFHgxD57MtTxcOE'
+TOKEN = ''NTE5NjUzMjA5NDIyMjk5MTg3.DuicqQ.DEKtvmxLx4UqDFHgxD57MtTxcOE''
 
-client = commands.Bot(command_prefix="s!")
+client = commands.Bot(command_prefix="n!")
+client.remove_command("help")
 
 extensions = ['cogs.ban', 'cogs.help', 'cogs.joined', 'cogs.kick']
 	
